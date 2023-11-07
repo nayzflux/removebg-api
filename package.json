@@ -1,0 +1,37 @@
+{
+  "name": "removebg-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "tsc && node build/app.js",
+    "dev": "nodemon src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NayZ",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/express-session": "^1.17.10",
+    "@types/node": "^20.8.10",
+    "@types/passport": "^1.0.15",
+    "@types/passport-discord": "^0.1.11",
+    "@types/passport-google-oauth2": "^0.1.8",
+    "@types/passport-spotify": "^2.0.4",
+    "nodemon": "^3.0.1",
+    "prisma": "^5.5.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@quixo3/prisma-session-store": "^3.1.13",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.6.0",
+    "passport-discord": "^0.1.4",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-spotify": "^2.0.0",
+    "zod": "^3.22.4"
+  }
+}
